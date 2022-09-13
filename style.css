@@ -1,0 +1,61 @@
+/** @format */
+* {
+  margin: 0;
+  padding: 0;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+body {
+  background-color: #101010;
+  color: white;
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: fit-content;
+  width: 100%;
+  flex-direction: column;
+}
+.section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100%;
+  background-position: center center;
+  background-size: cover;
+  flex-direction: column;
+}
+.section-1 {
+  background-image: url(/assets/img1.jpg);
+}
+
+.section-2 {
+  background-image: url(/assets/img2.jpg);
+}
+.section-3 {
+  background-image: url(/assets/img3.jpg);
+}
+.section-4 {
+  background-image: url(/assets/img4.jpg);
+}
+.section h1 {
+  font-size: calc(100vw / 7);
+  font-family: "Monument";
+  text-transform: uppercase;
+}
+.section-1 h1 {
+  color: red;
+}
+
+.section-2 h1 {
+  color: #101010;
+}
+.section-3 h1 {
+  color: #e0e0e0;
+}
+.section-4 h1 {
+  color: red;
+}
